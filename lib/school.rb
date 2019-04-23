@@ -23,6 +23,8 @@ class School
   
   def sort
     sort_all_grades = {} 
-    Hash[@roster.sort] 
+    @roster.each do |grade, name|
+      @roster[grade].sort 
+    end 
   end 
 end 
