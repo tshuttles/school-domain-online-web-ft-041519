@@ -26,5 +26,6 @@ class School
     @roster.each do |grade, name|
       sort_all_grades[grade] = name.sort
     end 
+    sort_all_grades
   end 
 end 
