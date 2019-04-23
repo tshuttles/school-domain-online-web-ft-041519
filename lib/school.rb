@@ -22,6 +22,6 @@ class School
   end 
   
   def sort
-    @grade = Hash[@roster.sort] 
+    @roster = Hash[@roster.sort] 
   end 
 end 
