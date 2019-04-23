@@ -12,7 +12,7 @@ class School
   def add_student(name, grade)
     @roster = {grade => [name]}
     if @roster[grade] == [] 
-      @roster[grade].push[name]
+      @roster = {[grade] => [name]}
     else 
     end 
   end 
