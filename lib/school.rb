@@ -15,7 +15,7 @@ class School
       @roster = {grade => [name]}
     elsif @roster [grade] != [] 
       @roster[grade] << [name]
-    else 
+    
     end 
   end 
 
